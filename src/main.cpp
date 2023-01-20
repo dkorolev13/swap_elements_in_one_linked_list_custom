@@ -85,7 +85,6 @@ void List<T>::clear()
         pop_front();
 }
 
-
 template<typename T>
 T & List<T>::operator[](const int index)
 {
@@ -150,7 +149,6 @@ void List<T>::pop_back()
 {
     removeAt(Size - 1);
 }
-
 
 int main()
 {
